@@ -1,0 +1,45 @@
+C51 COMPILER V9.01   INIT                                                                  04/01/2024 13:42:16 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE INIT
+OBJECT MODULE PLACED IN .\Objects\Init.obj
+COMPILER INVOKED BY: D:\ProgramData\MDK5.36\C51\BIN\C51.EXE ..\Hardware\Init.c OPTIMIZE(8,SPEED) BROWSE INCDIR(..\RTX51-
+                    -Tiny;..\User;..\Hardware;..\Fwlib) DEBUG OBJECTEXTEND PRINT(.\Listings\Init.lst) OBJECT(.\Objects\Init.obj)
+
+line level    source
+
+   1          #include <Init.h>
+*** WARNING C322 IN LINE 530 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+*** WARNING C322 IN LINE 532 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+*** WARNING C322 IN LINE 534 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+*** WARNING C322 IN LINE 536 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+*** WARNING C322 IN LINE 538 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+*** WARNING C322 IN LINE 540 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+*** WARNING C322 IN LINE 542 OF ..\FWLIB\STC15FXXXX.H: unknown identifier
+   2          
+   3          
+   4          void System_Init()
+   5          {
+   6   1              P0 = 0xff;
+   7   1              P2 = P2 & 0x1f | 0x80;
+   8   1              P2 &= 0x1f;//¹Ø±ÕËø´æÆ÷
+   9   1              
+  10   1              P0 = 0x00;
+  11   1              P2 = P2 & 0x1f | 0xa0;
+  12   1              P2 &= 0x1f;
+  13   1              
+  14   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     29    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  7 WARNING(S),  0 ERROR(S)

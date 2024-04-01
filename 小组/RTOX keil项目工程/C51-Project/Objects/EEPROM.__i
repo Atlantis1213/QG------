@@ -1,0 +1,1 @@
+"..\Fwlib\EEPROM.c" OPTIMIZE (8,SPEED) BROWSE INCDIR(..\RTX51-Tiny;..\User;..\Hardware;..\Fwlib) DEBUG OBJECTEXTEND PRINT(.\Listings\EEPROM.lst) OBJECT(.\Objects\EEPROM.obj)

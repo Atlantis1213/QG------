@@ -1,0 +1,1 @@
+"..\Fwlib\PCA.c" OPTIMIZE (8,SPEED) BROWSE INCDIR(..\RTX51-Tiny;..\User;..\Hardware;..\Fwlib) DEBUG OBJECTEXTEND PRINT(.\Listings\PCA.lst) OBJECT(.\Objects\PCA.obj)

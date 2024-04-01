@@ -1,0 +1,1 @@
+"..\Fwlib\Exti.c" OPTIMIZE (8,SPEED) BROWSE INCDIR(..\RTX51-Tiny;..\User;..\Hardware;..\Fwlib) DEBUG OBJECTEXTEND PRINT(.\Listings\Exti.lst) OBJECT(.\Objects\Exti.obj)

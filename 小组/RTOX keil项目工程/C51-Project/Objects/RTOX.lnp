@@ -1,0 +1,7 @@
+".\Objects\Seg.obj",
+".\Objects\main.obj",
+".\Objects\Conf_tny.obj",
+"..\RTX51-Tiny\RTX51TNY.LIB" 
+TO ".\Objects\RTOX" Rtx51Tiny 
+PRINT(".\Listings\RTOX.m51") RAMSIZE(256) 
+DISABLEWARNING (16) 

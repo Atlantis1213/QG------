@@ -1,0 +1,1 @@
+"..\Fwlib\delay.c" OPTIMIZE (8,SPEED) BROWSE INCDIR(..\RTX51-Tiny;..\User;..\Hardware;..\Fwlib) DEBUG OBJECTEXTEND PRINT(.\Listings\delay.lst) OBJECT(.\Objects\delay.obj)

@@ -1,0 +1,1 @@
+"..\Hardware\Init.c" OPTIMIZE (8,SPEED) BROWSE INCDIR(..\RTX51-Tiny;..\User;..\Hardware;..\Fwlib) DEBUG OBJECTEXTEND PRINT(.\Listings\Init.lst) OBJECT(.\Objects\Init.obj)
